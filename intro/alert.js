@@ -1,4 +1,7 @@
-document.body.onload = alert("Hello World")
+document.body.onload = alert("Hello World");
+const hideProfNames = document.getElementById("hideProfs");
+
+hideProfNames.onclick = hideProfs();
 
 function hideProfs() {
     var x = document.getElementsByClassName("instructor-name");
