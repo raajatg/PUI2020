@@ -4,6 +4,13 @@ body {
   background-color: aquamarine;
 }
 
+button {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
 #instructors {
   background-color: beige;
   padding: 10px;
